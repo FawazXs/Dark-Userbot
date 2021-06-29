@@ -77,7 +77,7 @@ Klik tombol di samping untuk membuat string milikmu`
 `
 Klik tombol dibawah untuk deploy King Userbot milikmu`
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/FawazXs/Dark-Userbot/tree/King-Userbot"> <img src="https://telegra.ph/file/aa86da9426ff4e5d22254.png" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/FawazXs/Dark-Userbot/tree/King-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-black?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
