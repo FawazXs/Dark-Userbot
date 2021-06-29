@@ -335,7 +335,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Telah Aktif```")
+    await bot.send_message(BOTLOG_CHATID, "```🍆𝘿𝘼𝙍𝙆-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🍆 Telah Aktif```")
     return
 
 with bot:
@@ -417,17 +417,17 @@ with bot:
         async def handler(event):
             await event.message.get_sender()
             text = (
-                f"**Hay**, __saya pengguna__ ⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡\n\n"
+                f"**Hay**, __saya pengguna__ 🍆𝘿𝘼𝙍𝙆-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🍆\n\n"
                 f"       __Terimakasih Untuk Userbot__\n\n"
                 f"✣ **Userbot Version :** `{BOT_VER}@{UPSTREAM_REPO_BRANCH}`\n"
                 f"✣ **Grup Support :** [Support Chat](t.me/KingUserbotSupport)\n"
                 f"✣ **Pemilik Repo :** [Developer](t.me/PacarFerdilla)\n"
-                f"✣ **Repo Userbot :** [King-Userbot](https://github.com/apisuserbot/King-Userbot)\n")
+                f"✣ **Repo Userbot :** [Dark-Userbot](https://github.com/FawazXs/Dark-Userbot)\n")
             await tgbot.send_file(event.chat_id, logo, caption=text,
                                   buttons=[
                                       [
                                           custom.Button.url(
-                                              text="⚡ Support Chat ⚡",
+                                              text="🍆 Support Chat 🍆",
                                               url="https://t.me/KingUserbotSupport"
                                           )
                                       ]
@@ -444,9 +444,9 @@ with bot:
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
                     text="{}"
-                    f"\n\n◎› **King** {DEFAULTUSER}\n\n"
+                    f"\n\n◎› **Dark** {DEFAULTUSER}\n\n"
                     "◎› **Plugins :** `{}`\n◎› **Menu Plugins ↯** \n".format(
-                        "**⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡**",
+                        "** 🍆𝘿𝘼𝙍𝙆-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🍆**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -454,22 +454,22 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan ⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
+                    "Bantuan  🍆𝘿𝘼𝙍𝙆-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🍆 ",
                     text="◎› Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "**⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡**",
-                    text="""**Anda Bisa Membuat King Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/KingUserbotSupport)""",
+                    "** 🍆𝘿𝘼𝙍𝙆-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🍆**",
+                    text="""**Anda Bisa Membuat Dark Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/KingUserbotSupport)""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "King-Userbot",
-                                "https://github.com/apisuserbot/King-Userbot"),
+                                "Dark-Userbot",
+                                "https://github.com/FawazXs/Dark-Userbot"),
                             custom.Button.url(
                                 "Developer",
-                                "t.me/PacarFerdilla")],
+                                "t.me/xenxust")],
                     ],
                     link_preview=False,
                 )
