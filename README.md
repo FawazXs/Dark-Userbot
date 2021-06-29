@@ -20,7 +20,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/apisuserbot/King-Userbot?&style=plastic&logo=github)](https://GitHub.com/apisuserbot/King-Userbot/graphs/contributors/)
 <p align="center">
 
-![King Userbot Logo](https://telegra.ph/file/8eb368517a8d3933c05d9.jpg)
+![Dark Userbot Logo](https://telegra.ph/file/aa86da9426ff4e5d22254.png)
 
 <a href="https://hub.docker.com/r/apiskinguserbot/kinguserbot"> <img src="https://img.shields.io/docker/image-size/apiskinguserbot/kinguserbot/Buster?label=docker%20image%20size&logo=docker&style=for-the-badge" /></a>
 <a href="https://hub.docker.com/r/apiskinguserbot/kinguserbot/tags"> <img src="https://img.shields.io/docker/v/apiskinguserbot/kinguserbot/Buster?label=docker%20version&logo=docker&style=for-the-badge" /></a>
@@ -44,8 +44,8 @@ dan Anda berakhir di Finale Battle dengan Telegram dan pada akhirnya
 ```
 
 
-### Repo King Userbot 🚀
-Repo Yang Dikelola oleh [Apis](https://t.me/PacarFerdilla) Dari Berbagai Repo Userbot yg ada diGithub 
+### Repo Dark Userbot 🚀
+Repo Yang Dikelola oleh [Kaghasi](https://t.me/xenxust) Dari Berbagai Repo Userbot yg ada diGithub 
 `
 Userbot digunakan untuk bersenang senang di telegram, ada beberapa fitur yg mungkin dapat membantu kamu tanpa harus mengakses apk lain`
 
