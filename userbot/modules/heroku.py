@@ -108,7 +108,7 @@ async def set_var(var):
                 "**Mengganti Config Vars**:\n"
                 f"`{variable}` = `{value}`"
             )
-        await var.edit("`Sedang Di Proses King, Mohon Menunggu Dalam Beberapa Detik`")
+        await var.edit("`Sedang Di Proses Dark, Mohon Menunggu Dalam Beberapa Detik`")
     else:
         if BOTLOG:
             await var.client.send_message(
@@ -116,7 +116,7 @@ async def set_var(var):
                 "**Menambahkan Config Vars**:\n"
                 f"`{variable}` **=** `{value}`"
             )
-        await var.edit("`King Menambahkan Config Vars...`")
+        await var.edit("`Dark Menambahkan Config Vars...`")
     heroku_var[variable] = value
 
 
@@ -130,7 +130,7 @@ async def dyno_usage(dyno):
     """
         Get your account Dyno Usage
     """
-    await dyno.edit("`Mengecek kuota...⚡️`")
+    await dyno.edit("`Mengecek kuota...🍆`")
     await asyncio.sleep(1)
     useragent = (
         'Mozilla/5.0 (Linux; Android 10; SM-G975F) '
@@ -181,17 +181,17 @@ async def dyno_usage(dyno):
             AppMinutes = math.floor(AppQuotaUsed % 60)
 
             await dyno.edit(
-                f"★ **INFO KUOTA KING** ★\n╔══════━━━━━━━══════╗ \n"
-                f" ➠ **Penggunaan Kuota :** `{app.name}` \n"
-                f"• **Hasil** :  `{AppHours}` **Jam** - `{AppMinutes}` **Menit**\n"
-                f"• **Persen** : `{AppPercentage}`**%**\n"
+                f"★ **𝗜𝗡𝗙𝗢 𝗞𝗨𝗢𝗧𝗔 𝗗𝗔𝗥𝗞-𝗨𝗦𝗘𝗥𝗕𝗢𝗧** ★\n╔══════━━━━━━━══════╗ \n"
+                f" ➠ **𝗣𝗲𝗻𝗴𝗴𝘂𝗻𝗮 𝗞𝘂𝗼𝘁𝗮 :** `{app.name}` \n"
+                f"• **𝗛𝗮𝘀𝗶𝗹** :  `{AppHours}` **𝗝𝗔𝗠** - `{AppMinutes}` **𝗠𝗘𝗡𝗜𝗧**\n"
+                f"• **𝗣𝗲𝗿𝘀𝗲𝗻** : `{AppPercentage}`**%**\n"
                 f"◖═══════════════════◗ \n"
-                f" ➠ **Sisa Kuota Bulan Ini :**\n"
-                f"• **Sisa** :  `{hours}` **Jam** - `{minutes}` **Menit**\n"
-                f"• **Persen** :  `{percentage}`**%**\n"
+                f" ➠ **𝗦𝗶𝘀𝗮 𝗞𝘂𝗼𝘁𝗮 𝗕𝘂𝗹𝗮𝗻 𝗜𝗻𝗶 :**\n"
+                f"• **𝘀𝗶𝘀𝗮** :  `{hours}` **𝗝𝗔𝗠** - `{minutes}` **𝗠𝗘𝗡𝗜𝗧**\n"
+                f"• **𝗣𝗲𝗿𝘀𝗲𝗻** :  `{percentage}`**%**\n"
                 f"╚══════━━━━━━━══════╝ \n"
-                f"◈ **KING**  : {ALIVE_NAME} \n"
-                f"◈ **REPO** : [King-Userbot](https://github.com/apisuserbot/King-Userbot) \n"
+                f"◈ **𝗗𝗔𝗥𝗞**  : {ALIVE_NAME} \n"
+                f"◈ **𝗥𝗘𝗣𝗢** : [Dark-Userbot](https://github.com/FawazXs/Dark-Userbot) \n"
             )
             await asyncio.sleep(20)
             await event.delete()
